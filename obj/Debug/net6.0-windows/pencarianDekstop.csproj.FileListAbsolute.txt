@@ -1,0 +1,16 @@
+C:\Users\LENOVO\source\repos\pencarianDekstop\bin\Debug\net6.0-windows\pencarianDekstop.exe
+C:\Users\LENOVO\source\repos\pencarianDekstop\bin\Debug\net6.0-windows\pencarianDekstop.deps.json
+C:\Users\LENOVO\source\repos\pencarianDekstop\bin\Debug\net6.0-windows\pencarianDekstop.runtimeconfig.json
+C:\Users\LENOVO\source\repos\pencarianDekstop\bin\Debug\net6.0-windows\pencarianDekstop.dll
+C:\Users\LENOVO\source\repos\pencarianDekstop\bin\Debug\net6.0-windows\pencarianDekstop.pdb
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.Form1.resources
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.dll
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\refint\pencarianDekstop.dll
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.pdb
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\pencarianDekstop.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\pencarianDekstop\obj\Debug\net6.0-windows\ref\pencarianDekstop.dll
