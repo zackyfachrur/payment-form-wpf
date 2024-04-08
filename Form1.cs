@@ -68,20 +68,25 @@ namespace pencarianDekstop
             };
         }
 
+        private int ResultRadio(int biayaDaftar, int biayaPilihan) {
+            int result = biayaDaftar + biayaPilihan;
+            return result;
+        }
+
         private void buttonOK_Click(object sender, EventArgs e)
         {
             AcceptForm();
             if (radioButtonWeb.Checked)
             {
-                totalBayar = biayaKursus + biayaWeb;
+                totalBayar = ResultRadio(biayaKursus, biayaWeb);
             }
             else if (radioButtonNetwork.Checked)
             {
-                totalBayar = biayaKursus + biayaNetwork;
+                totalBayar = ResultRadio(biayaKursus, biayaNetwork);
             }
             else if (radioButtonNET.Checked)
             {
-                totalBayar = biayaKursus + biayaNET;
+                totalBayar = ResultRadio(biayaKursus, biayaNET);
             }
 
             if (radioButtonCash.Checked)
