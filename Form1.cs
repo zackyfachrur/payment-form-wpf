@@ -76,31 +76,16 @@ namespace pencarianDekstop
         private void buttonOK_Click(object sender, EventArgs e)
         {
             AcceptForm();
-            if (radioButtonWeb.Checked)
-            {
-                totalBayar = ResultRadio(biayaKursus, biayaWeb);
-            }
-            else if (radioButtonNetwork.Checked)
-            {
-                totalBayar = ResultRadio(biayaKursus, biayaNetwork);
-            }
-            else if (radioButtonNET.Checked)
-            {
-                totalBayar = ResultRadio(biayaKursus, biayaNET);
-            }
+            totalBayar = radioButtonWeb.Checked ? ResultRadio(biayaKursus, biayaWeb) :
+            radioButtonNetwork.Checked ? ResultRadio(biayaKursus, biayaNetwork) :
+            radioButtonNET.Checked ? ResultRadio(biayaKursus, biayaNET) :
+            totalBayar;
 
-            if (radioButtonCash.Checked)
-            {
-                textBoxTotalCicilan.Hide();
-                labelTotalCicil.Hide();
-            }
-            else if (radioButtonCicil.Checked)
-            {
-                totalCicilan = totalBayar / 3;
-                textBoxTotalCicilan.Text = "Rp . " + totalCicilan.ToString();
-                textBoxTotalCicilan.Show();
-                labelTotalCicil.Show();
-            }
+            textBoxTotalCicilan.Visible = !radioButtonCash.Checked;
+            labelTotalCicil.Visible = !radioButtonCash.Checked;
+
+            totalCicilan = radioButtonCicil.Checked ? totalBayar / 3 : 0;
+            textBoxTotalCicilan.Text = radioButtonCicil.Checked ? "Rp . " + totalCicilan.ToString() : "";
 
             textBoxTotalBayar.Text = "Rp. " + totalBayar.ToString();
             labelTotalBayar.Show();
